@@ -92,21 +92,23 @@ footer {
 	.name{
 		font-size: 13px;	
 		position: relative;
+		width: -
 	}
 	
 }
 
 .message{
-	border: 1px solid red;
+	border: px solid red;
 	background-color: red;
 	position: absolute;
-  	right: 110px;
+  	bottom: px;
+ 	right: 130px;
   	background: #ff0050;
   	color: white;
  	font-size: 12px;
-  	width: 18px;
-  	height: 12px;
-  	border-radius: 45%;
+  	width: 16px;
+  	height: 16px;
+  	border-radius: 35%;
  	display: flex;
  	align-items: center;
   	justify-content: center;
@@ -165,7 +167,7 @@ footer {
   right: 14px;
   background: #ff0050;
   color: white;
-  font-size: 1px;
+  font-size: 12px;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -177,4 +179,20 @@ footer {
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
+.debug footer {
+	min-height: 100px;
+	border: 2px dashed #fff;
+}
+
+.debug .sidebar {
+	min-width: 80px;
+	min-height: 450px;
+	border: 2px dashed #ff0;
+}
+
+.debug .reel-header {
+	min-height: 50px;
+	border: 2px dashed #fff;
+}
+
 /* --------------------- */
