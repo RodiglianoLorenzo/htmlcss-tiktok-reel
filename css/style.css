@@ -76,7 +76,23 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	color: white;
+	
+	.sidebar-item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 6px;
+	}
+	.stats{
+		font-size: 12px;
+	}
 }
 
 /* ---------------------
