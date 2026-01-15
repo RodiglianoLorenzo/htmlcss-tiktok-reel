@@ -92,7 +92,6 @@ footer {
 	.name{
 		font-size: 13px;	
 		position: relative;
-		width: -
 	}
 	
 }
@@ -101,7 +100,7 @@ footer {
 	border: 1px solid red;
 	background-color: red;
 	position: absolute;
-  	right: 130px;
+  	right: 110px;
   	background: #ff0050;
   	color: white;
  	font-size: 12px;
@@ -166,7 +165,7 @@ footer {
   right: 14px;
   background: #ff0050;
   color: white;
-  font-size: 12px;
+  font-size: 1px;
   width: 16px;
   height: 16px;
   border-radius: 50%;
