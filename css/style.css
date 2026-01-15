@@ -7,6 +7,7 @@
 body {
 	margin: 0 auto;
 	font-family: 'TikTok Sans', sans-serif;
+
 }
 
 video {
@@ -18,7 +19,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -34,7 +36,23 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+
+	.nav_bar {
+		display: flex;
+		gap: 20px;
+	}
+	.icon{
+		justify-content: space-between;
+		
+	}
 }
+
+
 
 /* Footer */
 
@@ -58,6 +76,7 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
 }
 
 /* ---------------------
