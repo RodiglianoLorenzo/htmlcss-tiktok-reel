@@ -41,13 +41,14 @@ video {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 10px;
+	margin-bottom: 0px;
 
-	.nav_bar {
+	.nav-bar {
 		display: flex;
 		gap: 20px;
 	}
 
-	.bar{
+	.bar {
 		color: grey;
 	}
 }
@@ -65,6 +66,46 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	.Navigation-Bar{
+		margin-top: 15px;
+		font-size: 20px;
+		padding: 15px;
+		background-color: black;
+		border: 1px solid red;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.Navigation-Bar i{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.bi-people, 
+	.bi-plus,
+	.bi-chat-square,
+	.bi-person{
+		color: grey;
+	
+	}
+	.name{
+		font-size: 13px;	
+		
+	}
+	
+}
+.button{
+	padding: 10px;
+	
+	border-radius: 10px;
+	border-left: 5px solid cyan;
+	border-right: 5px solid purple;
+}
+
+.text{
+	padding-bottom: 20px;
 }
 
 /* Sidebar */
@@ -76,22 +117,22 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
 	
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
 	gap: 20px;
 	color: white;
-	
-	.sidebar-item{
+
+	.sidebar-item {
 		font-size: 30px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		gap: 6px;
 	}
-	.stats{
+
+	.stats {
 		font-size: 12px;
 	}
 }
