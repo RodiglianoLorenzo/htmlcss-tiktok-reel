@@ -46,9 +46,9 @@ video {
 		display: flex;
 		gap: 20px;
 	}
-	.icon{
-		justify-content: space-between;
-		
+
+	.bar{
+		color: grey;
 	}
 }
 
